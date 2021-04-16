@@ -1,4 +1,3 @@
-version 1.1
 
 task hello {
   String name
