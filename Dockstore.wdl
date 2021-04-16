@@ -11,7 +11,7 @@ task hello {
   
   runtime {
     docker: "ubuntu:latest"
-    memory: "4G"
+    memory: "8G"
   }
   
   meta {
