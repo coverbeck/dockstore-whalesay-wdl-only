@@ -1,10 +1,9 @@
 version 1.0
 
 task hello {
-  String name
 
   command {
-    echo 'hello ${name}!'
+    echo 'hello world!'
   }
   output {
     File response = stdout()
@@ -22,6 +21,3 @@ task hello {
   }
 }
 
-workflow test {
-  call hello
-}
