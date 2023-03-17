@@ -4,3 +4,6 @@ workflows:
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
+    authors:
+      - name: Charles Overbeck
+        email: charles@testing.org
