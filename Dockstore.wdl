@@ -1,5 +1,7 @@
 version 1.0
 
+https://raw.githubusercontent.com/coverbeck/dockstore-whalesay-wdl-only/test/Dockstore.wdl
+
 task hello {
 
   command {
