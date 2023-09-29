@@ -7,5 +7,5 @@ workflows:
   - name: Test
     subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
-#    testParameterFiles:
-#      - /dockstore.cwl.json
+    testParameterFiles:
+      - /dockstore.cwl.json
